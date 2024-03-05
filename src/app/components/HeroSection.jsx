@@ -1,15 +1,15 @@
 import React from 'react';
 import HeroSearch from './HeroSearch';
-import CategorySlider from './category/components/CategorySlider';
 
 const HeroSection = () => {
     return (
-        <div className="bg-cover bg-center h-screen flex flex-col items-center justify-center" style={{ backgroundImage: "url('https://gaviaspreview.com/wp/gowilds/wp-content/uploads/2023/02/slider-1.jpg')" }}>
+        <div className="bg-cover bg-center h-screen flex flex-col items-center justify-center gap-2"
+            style={{ backgroundImage: "url('https://gaviaspreview.com/wp/gowilds/wp-content/uploads/2023/02/slider-1.jpg')" }}>
             <div className='text-white flex flex-col items-center justify-center pb-5'>
-                <h1 className=" text-[58px] font-bold relative">Where Would You Like To Go?
-                    <span className='bg-[#F7921E] absolute text-[18px] top-0 left-0 -rotate-[15deg] p-1'>Let's Explore</span>
+                <h1 className="text-[22px] lg:text-[58px] font-bold relative">Where Would You Like To Go?
+                    <span className='bg-[#F7921E] absolute text-[10px] top-[-8px] left-[-15px] lg:top-0 lg:left-0 -rotate-[15deg] p-1'>Let's Explore</span>
                 </h1>
-                <h1 className='text-[22px]'>Checkout Beautiful Places Around the World.</h1>
+                <h1 className='text-[10px] lg:text-[22px]'>Checkout Beautiful Places Around the World.</h1>
             </div>
 
             <div
