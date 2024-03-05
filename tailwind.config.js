@@ -14,12 +14,14 @@ module.exports = {
       },
 
       colors: {
-        hf: '#1D231F'
+        hf: '#1D231F',
+        brand: '#63AB45',
+        secondary: '#F7921E'
       },
       rotate: {
         '15': '15deg',
       }
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };
