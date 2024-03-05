@@ -69,19 +69,19 @@ const CategorySlider = () => {
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1,
         },
       },
     ],
   };
   return (
-    <div className="mx-10 mt-[-50px]">
+    <div className="mx-10 mt-[-50px] pb-10">
       <Slider {...settings}>
         {
           sliderObj.map((item, id) => {
             return (
-              <div key={id} className="shadow-xl p-5 w-1/5 h-[261.19px] cursor-pointer bg-[#FFFFFF] rounded-md">
+              <div key={id} className="border-b border-gray-200 shadow-md p-4 w-1/5 h-[261.19px]  cursor-pointer bg-[#FFFFFF] rounded-md pb-2">
                 <h1 className="font-semibold">{item.title}</h1>
                 <div>
                   <img src={item.image} alt="image" />
