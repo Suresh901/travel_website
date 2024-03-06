@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { MdKeyboardArrowDown } from "react-icons/md";
+import { IoIosArrowForward } from "react-icons/io";
 
 const Accordion = () => {
   const [activeItem, setActiveItem] = useState(null);
@@ -38,8 +38,8 @@ const Accordion = () => {
 
   return (
     <div className="w-full">
-      <div className="px-10">
-        <div className=" w-full">
+      <div className="px-2 md:px-10">
+        <div>
           {faqData.map((item, index) => (
             <div
               key={index}
@@ -55,11 +55,11 @@ const Accordion = () => {
                 <div
                   className={`transform transition-transform ${
                     activeItem === index
-                      ? "rotate-[-90deg] duration-500 bg-brand rounded-full text-white border-l-4 border-brand"
+                      ? "rotate-[90deg] duration-500 bg-brand rounded-full text-white "
                       : "bg-[#f3f8f6] rounded-full"
                   }`}
                 >
-                  <MdKeyboardArrowDown size={25} />
+                  <IoIosArrowForward size={25} />
                 </div>
               </div>
 
