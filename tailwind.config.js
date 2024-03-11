@@ -16,7 +16,8 @@ module.exports = {
       colors: {
         hf: '#1D231F',
         brand: '#63AB45',
-        secondary: '#F7921E'
+        secondary: '#F7921E',
+        text: '#82828A'
       },
       rotate: {
         '15': '15deg',

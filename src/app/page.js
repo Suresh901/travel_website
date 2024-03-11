@@ -1,10 +1,11 @@
-import HeroSection from "./components/HeroSection"
-import Availability from "./components/availability/Availability"
-import CategoryPage from "./components/category/CategoryPage"
-import ChooseUs from "./components/chooseus/ChooseUs"
-import FeaturesSection from "./components/featured/FeaturesSection"
-import Offering from "./components/offering/Offering"
-import WelcomePage from "./components/welcome/WelcomePage"
+import Availability from "./pages/availability/Availability"
+import CategoryPage from "./pages/category/CategoryPage"
+import ChooseUs from "./pages/chooseus/ChooseUs"
+import FeaturesSection from "./pages/featured/FeaturesSection"
+import HeroSection from "./pages/herosection/HeroSection"
+import Offering from "./pages/offering/Offering"
+import WelcomePage from "./pages/welcome/WelcomePage"
+
 
 const page = () => {
   return (
