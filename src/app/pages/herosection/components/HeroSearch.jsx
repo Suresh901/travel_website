@@ -16,22 +16,14 @@ const HeroSearch = () => {
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-5 gap-5">
-      <div className="flex items-center border-b-[2px] w-full text-[14px] space-x-2 pb-2 gap-1 relative">
+      <div className="flex items-center border-b-[2px] w-full text-[14px] space-x-2 pb-2 gap-1 ">
         <IoLocationSharp size={30} />
         <div className="flex items-center justify-between text-[#82828A] w-full">
           <div className="flex flex-col">
-            <h2 className="text-[14px] pb-10">Location</h2>
-            <select
-              value={location}
-              onChange={(e) => setLocation(e.target.value)}
-              className="text-black text-[16px] font-semibold absolute top-8 left-[34px] w-[90%] outline-none border border-red-500 border-none"
-            >
-              <option value="Location">Location</option>
-              <option value="New York">New York</option>
-              <option value="London">London</option>
-            </select>
+            <h2 className="text-[14px]">Location</h2>
+            <h1 className="font-bold text-black">Location</h1>
           </div>
-          {/* <IoIosArrowDown /> */}
+          <IoIosArrowDown />
         </div>
       </div>
 
@@ -40,18 +32,9 @@ const HeroSearch = () => {
         <div className="flex items-center justify-between text-[#82828A] w-full">
           <div className="flex flex-col">
             <h2 className="text-[14px]">Type</h2>
-            <select
-              value={bookingType}
-              onChange={(e) => setBookingType(e.target.value)}
-              className="text-black text-[16px] font-semibold"
-            >
-              <option value="Booking Type">Booking Type</option>
-              <option value="Hotel">Hotel</option>
-              <option value="Flight">Flight</option>
-              {/* Add more options as needed */}
-            </select>
+            <h1 className="font-bold text-black">Type</h1>
           </div>
-          {/* <IoIosArrowDown /> */}
+          <IoIosArrowDown />
         </div>
       </div>
       <div className="flex items-center border-b-[2px] w-full text-[14px] space-x-2 pb-2 gap-1">
@@ -71,22 +54,15 @@ const HeroSearch = () => {
         <FaUser size={25} />
         <div className="flex flex-col">
           <h2 className="text-[14px] text-[#82828A]">Guest</h2>
-          <select
-            value={guest}
-            onChange={(e) => setGuest(e.target.value)}
-            className="text-black text-[16px] font-semibold"
-          >
-            <option value="0">0</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            {/* Add more options as needed */}
-          </select>
+          <h2 className="text-black font-bold">Guest</h2>
         </div>
       </div>
 
       <div className="bg-brand text-white text-[16px] rounded-md gap-2 flex items-center justify-center cursor-pointer md:col-span-full lg:col-span-1">
-        <IoSearch />
-        <button className="">Search</button>
+        <div className="flex items-center justify-center gap-5 p-2">
+          <IoSearch />
+          <button>Search</button>
+        </div>
       </div>
     </div>
   );

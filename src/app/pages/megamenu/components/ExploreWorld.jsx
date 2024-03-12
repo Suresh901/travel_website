@@ -36,10 +36,10 @@ const ExploreWorld = () => {
     setSelectedPlace(place);
   };
   return (
-    <div className="w-screen z-[999]">
-      <div className="  bg-white border border-gray-300 p-4">
+    <div className="w-screen z-[999] bg-white">
+      <div className="border-gray-300 p-4 ">
         <div className="flex gap-3 p-5">
-          <div className="flex flex-col justify-between  gap-4">
+          <div className="flex flex-col gap-2">
             {country.map((item) => (
               <div
                 key={item.id}

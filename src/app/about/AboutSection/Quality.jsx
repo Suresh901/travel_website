@@ -4,21 +4,21 @@ import { IoStarSharp } from "react-icons/io5";
 const Quality = () => {
   return (
     <div
-      className=""
+      className="pb-10"
       style={{
         backgroundImage:
           "url('https://gaviaspreview.com/wp/gowilds/wp-content/uploads/2023/01/bg-shape-05.png')",
       }}
     >
-      <div className="mx-20 grid grid-cols-1 lg:grid-cols-2">
+      <div className="mx-20 grid grid-cols-1 lg:grid-cols-2 border-b">
         <div>
           <img
             src="https://gaviaspreview.com/wp/gowilds/wp-content/uploads/2023/02/icon-testimonial.png"
             alt=""
-            className="p-20 "
+            className="p-10 lg:p-20 "
           />
         </div>
-        <div className="py-20 text-[22px] flex flex-col gap-5">
+        <div className="lg:py-20 text-[22px] flex flex-col gap-5">
           <h1 className="font-bold">Quality Services</h1>
           <div className="flex gap-0.5">
             {[...Array(5)].map((_, index) => (

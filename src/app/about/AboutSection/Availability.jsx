@@ -37,7 +37,7 @@ const Availability = () => {
           "url('https://gaviaspreview.com/wp/gowilds/wp-content/uploads/2022/12/bg-shape-01.png')",
       }}
     >
-      <div className="flex flex-col lg:flex-row lg:mx-20 gap-20 p-5 ">
+      <div className="flex flex-col lg:flex-row gap-20 p-5 ">
         <div className="w-full lg:w-1/2 p-5 lg:p-20">
           <Heading
             heading="Availability"
@@ -78,7 +78,7 @@ const Availability = () => {
           </div>
         </div>
 
-        <div className="w-full lg:w-1/2  lg:absolute lg:top-[120px] lg:right-[55px] z-10">
+        <div className="w-full lg:w-1/2 lg:absolute lg:top-[90px] lg:right-[55px] z-10 ">
           <div className="grid grid-cols-2 gap-8 drop-shadow-lg">
             {data.map((item, index) => {
               // Add custom classes to the first and last items

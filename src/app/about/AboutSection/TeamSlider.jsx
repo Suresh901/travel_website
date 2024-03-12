@@ -102,7 +102,7 @@ const TeamSlider = () => {
 
   return (
     <div
-      className="mx-20 relative "
+      className="mx-10 lg:mx-20 relative "
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
     >

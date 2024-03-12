@@ -7,9 +7,15 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import ExploreNepal from "../pages/megamenu/components/ExploreNepal";
 import ExploreWorld from "../pages/megamenu/components/ExploreWorld";
 import Link from "next/link";
+import Sidebar from "./Sidebar";
 
 const Navbar = () => {
   const [hoveredItem, setHoveredItem] = useState(null);
+  const [open, setOpen] = useState(false);
+
+  const handleClick = (e) => {
+    setOpen(!open);
+  };
 
   const handleHover = (menu) => {
     setHoveredItem(menu);
@@ -94,8 +100,10 @@ const Navbar = () => {
             </button>
           </div>
         </div>
+        {/* sidebar */}
+        <Sidebar open={open} setOpen={setOpen} />
         <div className="lg:hidden">
-          <RxHamburgerMenu />
+          <RxHamburgerMenu onClick={handleClick} />
         </div>
       </div>
       {renderSubMenu()}

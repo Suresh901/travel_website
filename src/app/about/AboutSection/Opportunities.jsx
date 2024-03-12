@@ -2,8 +2,8 @@ import CircularProgress from "@/app/pages/welcome/components/CircularProgress";
 
 const Opportunities = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 mx-5 lg:mx-10 gap-5 lg:gap-20 mt-28">
-      <div className=" flex items-center justify-center">
+    <div className="grid grid-cols-1 md:grid-cols-2 mx-5 lg:mx-10 gap-5 lg:gap-20 ">
+      <div className=" flex items-center justify-center pt-5 lg:p-20">
         <img
           src="https://gaviaspreview.com/wp/gowilds/wp-content/uploads/2022/12/image-07.jpg"
           alt="img"
@@ -11,8 +11,8 @@ const Opportunities = () => {
         />
       </div>
 
-      <div className="pt-28 ">
-        <div className="">
+      <div className="md:pt-20 lg:pt-40">
+        <div>
           <div className="flex items-center justify-center md:items-start md:justify-start">
             <h1 className="text-brand bg-[#E1EFE0] p-2 rounded-md text-[16px] font-semibold w-auto ">
               Who we are
