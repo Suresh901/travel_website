@@ -47,7 +47,7 @@ const CheckAvailability = () => {
           <div className="lg:w-1/2 grid grid-cols-2 rounded-md text-white mx-5 gap-2">
             {data.map((item, id) => {
               return (
-                <div className="border-2 border-[#413934] rounded-md h-[215.5px] flex justify-center items-center text-[20px] font-bold">
+                <div className="border-2 border-[#413934] rounded-md h-[250.5px] flex justify-center items-center text-[20px] font-bold">
                   {item.label}
                 </div>
               );
