@@ -45,7 +45,7 @@ const Accordion = () => {
               key={index}
               className={`bg-white p-5 mb-4 ${
                 activeBorder === index ? "border-l-4 border-brand" : ""
-              }`}
+              } duration-500`}
             >
               <div
                 className="flex cursor-pointer items-center justify-between gap-10 "

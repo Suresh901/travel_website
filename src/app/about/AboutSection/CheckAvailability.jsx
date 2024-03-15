@@ -23,7 +23,7 @@ const CheckAvailability = () => {
       <div className="absolute inset-0 bg-black opacity-50 "></div>
 
       <div className="relative">
-        <div className="flex flex-col lg:flex-row mx-5 lg:mx-20 pt-40 ">
+        <div className="flex flex-col lg:flex-row mx-5 lg:mx-20 lg:pt-40 ">
           <div className=" w-full lg:w-1/2 flex flex-col items-start pb-10 ">
             <div className="pb-10 flex gap-3">
               <IoMdPlay

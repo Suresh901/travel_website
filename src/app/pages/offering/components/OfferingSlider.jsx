@@ -56,6 +56,7 @@ const OfferingSlider = () => {
     pauseOnHover: true,
     nextArrow: <></>,
     prevArrow: <></>,
+
     responsive: [
       {
         breakpoint: 1024,
@@ -108,12 +109,19 @@ const OfferingSlider = () => {
       <Slider ref={sliderRef} {...settings}>
         {sliderObj.map((item, id) => {
           return (
-            <div key={id} className="size-64 cursor-pointer">
+            <div key={id} className="size-64 cursor-pointer group relative">
               <img
                 src={item.image}
                 alt="image"
-                className="rounded-md h-full w-full"
+                className="rounded-md h-full w-full brightness-50 group-hover:brightness-50 duration-500 "
               />
+              <div className="text-white absolute top-40 left-5">
+                <h1 className="font-bold text-xl">Tent Camping</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Delectus, facere?
+                </p>
+              </div>
             </div>
           );
         })}

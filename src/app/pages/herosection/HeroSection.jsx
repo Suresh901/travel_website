@@ -23,7 +23,7 @@ const HeroSection = () => {
         </h1>
       </div>
 
-      <div className="bg-white w-[80vw] p-5 rounded-md mb-8">
+      <div className="bg-white w-[80vw] p-4 rounded-md mb-8">
         <HeroSearch />
       </div>
       <div className="text-white">

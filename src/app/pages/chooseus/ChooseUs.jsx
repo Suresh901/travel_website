@@ -4,9 +4,9 @@ import { PiAirplaneTiltFill } from "react-icons/pi";
 
 const ChooseUs = () => {
   return (
-    <div className="flex flex-col lg:flex-row items-center pb-10">
+    <div className="flex flex-col lg:flex-row items-center lg:pb-10">
       <div
-        className="w-full lg:w-1/2 h-[810px]"
+        className="w-full lg:w-1/2 h-[600px] lg:h-[810px]"
         style={{
           backgroundImage:
             "url('https://gaviaspreview.com/wp/gowilds/wp-content/uploads/2023/01/tour-5.jpg')",
@@ -18,7 +18,7 @@ const ChooseUs = () => {
         }}
       ></div>
       <div
-        className="w-full lg:w-1/2 h-[810px] p-5 md:p-10"
+        className="w-full lg:w-1/2 lg:h-[810px] pb-10 p-5 md:p-10"
         style={{
           backgroundImage:
             "url('https://gaviaspreview.com/wp/gowilds/wp-content/uploads/2023/01/bg-shape-07.png')",
@@ -26,7 +26,7 @@ const ChooseUs = () => {
           backgroundPosition: "right",
         }}
       >
-        <div className="flex flex-col items-start  pt-28  ">
+        <div className="flex flex-col items-start pt-5 lg:pt-28  ">
           <h1 className="text-[#63AB45] bg-[#E1EFE0] p-2 rounded-md w-[150px]">
             Why choose us
           </h1>

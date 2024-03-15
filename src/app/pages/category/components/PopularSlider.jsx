@@ -91,9 +91,9 @@ const PopularSlider = () => {
           return (
             <div
               key={id}
-              className=" h-[Hug (382.94px)] cursor-pointer p-2 rounded-lg pb-2 relative"
+              className=" h-[Hug (382.94px)] cursor-pointer p-2 rounded-lg relative group z-[100] overflow-hidden group"
             >
-              <div className="absolute bottom-10 left-0 right-0 flex flex-col items-center justify-center">
+              <div className="absolute -bottom-20 left-0 right-0 flex flex-col items-center justify-center group-hover:bottom-10 duration-500">
                 <div className="text-center z-[10]">
                   <h1 className="text-[#63AB45] text-[20px]">Travel To</h1>
                   <h1 className="font-semibold text-white">{item.location}</h1>
@@ -103,7 +103,7 @@ const PopularSlider = () => {
                 <img
                   src={item.image}
                   alt="image"
-                  className="rounded-md brightness-50"
+                  className="rounded-md  group-hover:brightness-50"
                 />
               </div>
               <span className="bg-[#F7921E] p-1 text-[11px] text-white px-3 rounded-md absolute top-[25px] right-[25px]">

@@ -79,7 +79,7 @@ const Welcome = () => {
         <img
           src="https://gaviaspreview.com/wp/gowilds/wp-content/uploads/2022/12/image-07.jpg"
           alt="img"
-          className="rounded-tl-full rounded-tr-full"
+          className="rounded-tl-full rounded-tr-full w-full"
         />
       </div>
 

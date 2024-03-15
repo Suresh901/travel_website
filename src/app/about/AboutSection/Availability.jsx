@@ -86,7 +86,7 @@ const Availability = () => {
               if (index === 0) {
                 customClass = "mt-20"; // Adjust this value as needed
               } else if (index === data.length - 1) {
-                customClass = "mt-[-60px]"; // Adjust this value as needed
+                customClass = "mt-[-80px]"; // Adjust this value as needed
               }
 
               return (
